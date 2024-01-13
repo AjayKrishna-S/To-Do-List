@@ -1,0 +1,36 @@
+body{
+    font-family: Arial;
+}
+
+.input-grid{
+    display:grid;
+    grid-template-columns:400px 250px 50px;
+    column-gap: 10px;
+    row-gap: 10px;
+
+}
+
+.input-cover{
+    display:grid;
+    grid-template-columns:380px 243px 50px;
+    column-gap: 10px;
+    width:720px;
+    height: 50px;
+    align-items: center;
+}
+
+.todo-del-btn{
+    width:50px;
+
+}
+
+.input-grid{
+    margin-bottom: 10px;
+
+}
+
+.input-box, .date-input-box{
+    font-size: 16px;
+    padding: 6px;
+
+}
