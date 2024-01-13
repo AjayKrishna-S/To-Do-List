@@ -1,31 +1,76 @@
+
+:root {
+    --primary:#333333;
+    --secondary:#444444;
+    --textColor:#f79307;
+}
 body{
     font-family: Arial;
+    background-color:var(--primary);
 }
 
+h2{
+    color:white;
+    margin-top: 40px;
+}
+.input-container{
+    width:800px;
+    height:120px;
+    background-color: var(--secondary);
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    margin: 0px 300px 30px 300px;
+}
 .input-grid{
     display:grid;
-    grid-template-columns:400px 250px 50px;
+    grid-template-columns:400px 250px 90px;
     column-gap: 10px;
     row-gap: 10px;
-
 }
 
+.input-box{
+    height: 25px;
+    border-radius: 15px;
+    border:1px solid var(--textColor);
+}
+.date-input-box{
+    height: 25px;
+    border-radius: 15px;
+    border:1px solid var(--textColor);
+    margin-right: 100px;
+}
+.add-btn{
+    height: 40px;
+    border-radius: 15px;
+    border:1px solid white;
+    color:white;
+    font-size: 14px;
+    background-color: #f79307;
+}
+.todo-grid{
+    width:800px;
+    margin: 0px 300px 0px 300px;
+}
 .input-cover{
     display:grid;
-    grid-template-columns:380px 243px 50px;
+    grid-template-columns:400px 250px 90px;
     column-gap: 10px;
-    width:720px;
-    height: 50px;
+    margin-top: 5px;
+    justify-content:center;
     align-items: center;
+    height: 70px;
+    font-size: 14px;
+    background-color: var(--secondary);
 }
 
 .todo-del-btn{
-    width:50px;
-
-}
-
-.input-grid{
-    margin-bottom: 10px;
+    height: 35px;
+    border-radius: 20px;
+    border:1px solid rgb(255, 0, 0);
+    color:rgb(255, 0, 0);
+    font-size: 14px;
+    background-color: #ffffff;
 
 }
 

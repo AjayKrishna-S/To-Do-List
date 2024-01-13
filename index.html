@@ -5,19 +5,21 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <h2>To-Do</h2>
-
-  <div class="input-grid">
-    <input class="js-input input-box" placeholder="ToDO-Name">
-    <input class="js-date-input date-input-box" type="date" >
-    
-    <button class="js-add-btn" 
-      onclick="
-        addToDo();
-      "
-    >Add</button>
+  <h2><center>My ToDos</center></h2>
+  <div class="input-container">
+    <div class="input-grid">
+      <input class="js-input input-box" placeholder="write your todo">
+      <input class="js-date-input date-input-box" type="date">
+      
+      <button class="js-add-btn add-btn" 
+        onclick="
+          addToDo();
+        "
+      >Add todos</button>
+    </div>
   </div>
 
+  
   <div class="js-display-container todo-grid"></div>
 
 
