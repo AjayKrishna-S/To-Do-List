@@ -1,6 +1,5 @@
 const todoList = [];
 function renderTodoList(){
-
   let todoListHTML = '';
   todoList.forEach((todoObjects,index)=>{
     const {name,dueDate} = todoObjects
