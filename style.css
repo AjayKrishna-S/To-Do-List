@@ -7,6 +7,7 @@
 body{
     font-family: Arial;
     background-color:var(--primary);
+    color: White;
 }
 
 h2{
@@ -54,7 +55,7 @@ h2{
 }
 .input-cover{
     display:grid;
-    grid-template-columns:400px 250px 90px;
+    grid-template-columns:400px 160px 90px 90px;
     column-gap: 10px;
     margin-top: 5px;
     justify-content:center;
@@ -73,7 +74,24 @@ h2{
     background-color: #ffffff;
 
 }
-
+.todo-complete-btn{
+    height: 35px;
+    border-radius: 20px;
+    border:1px solid rgb(1, 201, 1);
+    color:rgb(1, 201, 1);
+    font-size: 14px;
+    background-color: #ffffff;
+}
+.todo-name{
+    text-align: center;
+    font-size: 22px;
+    color: #f79307;
+}
+.todo-date{
+    text-align: center;
+    font-size: 18px;
+    color: #ffffff;
+}
 .input-box, .date-input-box{
     font-size: 16px;
     padding: 6px;
